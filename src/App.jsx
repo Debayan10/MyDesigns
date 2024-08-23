@@ -3,8 +3,8 @@ import Header from "./Components/Header/Header.jsx";
 import VideoSection from "./Components/VideoSection/VideoSection.jsx";
 import DesignImagesSection from "./Section/DesignImages/DesignImages.jsx";
 
-import MotionGraphics from "./assets/Video/motiongraphics.mp4";
-import graphicsdesign1 from "./assets/Image/graphicsdesign1.jpg";
+import MotionGraphics from "./Assets/Video/motiongraphics.mp4";
+import graphicsdesign1 from "./Assets/Image/graphicsdesign1.jpg";
 import "./App.css";
 
 function App() {
