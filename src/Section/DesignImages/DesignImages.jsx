@@ -2,11 +2,11 @@ import React from "react";
 import "./DesignImagesCss.css";
 import Images from "../../Components/Images/Images";
 import VideoSection from "../../Components/VideoSection/VideoSection.jsx";
-import img1 from "../../assets/image/lionelmessi.png";
-import img2 from "../../assets/image/nascar.png";
-import img3 from "../../assets/image/elclasico.png";
-import img4 from "../../assets/image/ronaldo.png";
-import MotionGraphics from "../../assets/video/motiongraphics2.mp4";
+import img1 from "../../assets/Image/lionelmessi.png";
+import img2 from "../../assets/Image/nascar.png";
+import img3 from "../../assets/Image/elclasico.png";
+import img4 from "../../assets/Image/ronaldo.png";
+import MotionGraphics from "../../assets/Video/motiongraphics2.mp4";
 
 function DesignImages() {
   return (
