@@ -1,0 +1,16 @@
+.HeaderStyle{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 5px #000000;
+}
+
+.SectionBg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
