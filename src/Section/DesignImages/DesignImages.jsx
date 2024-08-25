@@ -9,6 +9,7 @@ import img4 from "../../assets/Image/ronaldo.png";
 import MotionGraphics from "../../assets/Video/motiongraphics2.mp4";
 import img5 from "../../assets/Image/adidas.png";
 import img6 from "../../assets/Image/PRIME.png";
+import img7 from "../../assets/Image/curry.png";
 
 function DesignImages() {
   return (
@@ -51,6 +52,10 @@ function DesignImages() {
 
       <div className="column">
         <Images src={img6} />
+      </div>
+
+      <div className="column">
+        <Images src={img7} />
       </div>
     </div>
   );
