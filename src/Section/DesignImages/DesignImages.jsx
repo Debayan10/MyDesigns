@@ -7,6 +7,8 @@ import img2 from "../../assets/Image/nascar.png";
 import img3 from "../../assets/Image/elclasico.png";
 import img4 from "../../assets/Image/ronaldo.png";
 import MotionGraphics from "../../assets/Video/motiongraphics2.mp4";
+import img5 from "../../assets/Image/adidas.png";
+import img6 from "../../assets/Image/PRIME.png";
 
 function DesignImages() {
   return (
@@ -34,12 +36,21 @@ function DesignImages() {
       <div className="column">
         <Images src={img2} />
       </div>
+      
       <div className="column">
         <Images src={img3} />
       </div>
 
       <div className="column">
         <Images src={img4} />
+      </div>
+
+      <div className="column">
+        <Images src={img5} />
+      </div>
+
+      <div className="column">
+        <Images src={img6} />
       </div>
     </div>
   );
