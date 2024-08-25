@@ -19,7 +19,7 @@ function DesignImages() {
           <center>
             <video
               style={{
-                width: "98%",
+                width: "97%",
                 borderRadius: "10px",
                 boxShadow: "0px 5px 10px 5px rgb(0 0 0 / 20%)",
               }}
@@ -36,7 +36,7 @@ function DesignImages() {
       <div className="column">
         <Images src={img2} />
       </div>
-      
+
       <div className="column">
         <Images src={img3} />
       </div>
