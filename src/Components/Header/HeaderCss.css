@@ -1,16 +1,40 @@
-.HeaderStyle{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 70px;
-    color: white;
-    text-shadow: 2px 5px #000000;
+.HeaderStyle {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 5px #000000;
 }
 
-.SectionBg{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.HeaderButton {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  align-self: start;
+  background-color: white;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  transition: background-color 0.2s ease-out 100ms,
+    font-size 0.2s ease-out 100ms, padding 0.2s ease-out 100ms;
+}
+
+.HeaderButton:hover {
+  background-color: rgb(35, 193, 250);
+  padding: 12px;
+  font-size: 20px;
+}
+
+.HeaderButton:active {
+  color: rgb(237, 119, 46);
+}
+
+.SectionBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
